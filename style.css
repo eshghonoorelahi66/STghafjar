@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 24px;
+    text-align: center;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 12px;
+}
+
+.content {
+    color: #444;
+    font-size: 18px;
+    white-space: pre-wrap;   /* حفظ فاصله‌ها و خطوط جدید */
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .container { padding: 20px; }
+    .content { font-size: 16px; }
+}
